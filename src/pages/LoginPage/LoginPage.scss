@@ -1,0 +1,32 @@
+.container {
+  box-shadow: 4px 4px 8px 8px #e4e4e4;
+  .title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #3b5998;
+    line-height: 40px;
+  }
+  .form-login {
+    .password {
+      position: relative;
+    }
+    .eye {
+      position: absolute;
+      transform: translate(2350%, -200%);
+    }
+    .hide-eye {
+      position: absolute;
+      transform: translate(2350%, -200%);
+    }
+  }
+  .btn {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 20px;
+    &:hover {
+      color: #3b5998;
+      background-color: #ccc;
+    }
+  }
+}
